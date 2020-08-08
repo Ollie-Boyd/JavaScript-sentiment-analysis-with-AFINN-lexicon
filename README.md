@@ -27,12 +27,14 @@ The brief wasn't too challenging or exciting so I thought I would use it as an e
 
 * Finally, being a millenial, I wanted the sentiments displayed as emoji. Which was somewhat fun. 
 
-##What I learned? 
+## What I learned? 
 
 * This was a good small project. I learned that although JavaScript doesn't have the same quantity of ennumerators as Ruby, you can do most of the same stuff. And the Spread operator is awesome! It definitely makes-up for any shortfall. 
 
 * Such simple sentiment analysis does have its (major) shortcomings. It can only understand the least nuanced use of english and can't read intensifiers, punctuation, sarcasm, restrained anger etc. 
 
 * It did make me really interested in learning more about the subject and I hope to look into more once I leave CodeClan. [Brain.js](https://medium.com/openmindonline/emotion-detection-with-javascript-neural-networks-5a408f84eb75) seems like a cool project when I have more time. 
+
+* Although the appearance is similar to the Aqru app, I refactored the CSS and tried to use totally semantic HTML. Cutting down my non-DRY CSS felt good!
 
 
