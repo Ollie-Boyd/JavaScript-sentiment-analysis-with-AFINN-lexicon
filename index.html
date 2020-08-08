@@ -6,38 +6,69 @@
     <script src="js/review.js"></script>
     <link rel="stylesheet" href="css/main.css">
   </head>
+  
   <body>
-    <h1 id="heading">Leave a review</h1>
-    <h2>Formm</h2>
+    <header>
+          <div class="title">      <!-- title-container -->
+            <h1>Aqroo</h1> <!-- title -->
+            <img src="/assets/images/kangaroo-colour.svg" alt="Cartoon kangaroo logo"> <!-- header-logo -->
+      </div>
+  </header>
+    
     <form id="review_form">
+      <h2>Leave us a review</h2>
+
       <label for="first_name">First Name:</label>
-      <input type="text" id="first_name">
+      <input type="text" id="first_name" required>
       <br>
       <label for="last_name">Last Name:</label>
-      <input type="text" id="last_name">
+      <input type="text" id="last_name" required>
       <br>
-      <label for="one_star">1 star</label>
-      <input type="radio" id="one_star" name="star_rating" value="1">
+      <fieldset>
+        <label for="one_star">1 star</label>
+        <input type="radio" id="one_star" name="star_rating" value="1" required>
 
-      <label for="two_star">2 stars</label>
-      <input type="radio" id="two_star" name="star_rating" value="2">
+        <label for="two_star">2 stars</label>
+        <input type="radio" id="two_star" name="star_rating" value="2">
 
-      <label for="three_star">3 stars</label>
-      <input type="radio" id="three_star" name="star_rating" value="3">
+        <label for="three_star">3 stars</label>
+        <input type="radio" id="three_star" name="star_rating" value="3">
 
-      <label for="four_star">4 stars</label>
-      <input type="radio" id="four_star" name="star_rating" value="4">
+        <label for="four_star">4 stars</label>
+        <input type="radio" id="four_star" name="star_rating" value="4">
 
-      <label for="five_star">5 stars</label>
-      <input type="radio" id="five_star" name="star_rating" value="5">
+        <label for="five_star">5 stars</label>
+        <input type="radio" id="five_star" name="star_rating" value="5">
+      </fieldset>
       <br>
-      <label for="review_text">Your review</label>
-      <input type="text" id="review_text">
+      <label for="review_text" required>Your review</label>
+      <textarea id="review_text"></textarea>
       <br>
-      <button type="submit" id="submit_form">Submit Name</button>
+      <input type="submit" value='Review' id="submit_form"/>
 
     </form>
-    <p id="form_result">Who's it going to be?</p>
+    <ul id="form_result">
+      <li>
+        <h3>Oliver Boyd's review</h3>
+        <span>⭐⭐⭐⭐</span>
+        <ul class = 'emoji'>
+          <li>'🤬'</li>
+          <li>😠</li>
+          <li class = "selected">☹️</li>
+          <li>😕</li>
+          <li>😐</li>
+          <li>🙂</li>
+          <li>😊</li>
+          <li>😀</li>
+          <li>😁</li>
+          <li>😍</li>
+        </ul>
+        <span class = 'review_text'>Complete dump of a place. Really rude staff</span>
+        <div style="width: 300px">
+        </div>
+      </li>
+
+    </ul>
 
   </body>
 </html>
