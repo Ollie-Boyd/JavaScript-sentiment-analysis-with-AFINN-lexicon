@@ -10,7 +10,7 @@
 >- Append the submitted data to the list
 
 
-## Screenshot
+## Screenshot of finished app
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ollie-Boyd/JavaScript-sentiment-analysis-with-AFINN-lexicon/master/screenshots/Events.png" width=50% height=auto%>
 </p>
