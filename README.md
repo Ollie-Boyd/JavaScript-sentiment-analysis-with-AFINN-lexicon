@@ -9,13 +9,6 @@
 >- Create a list in HTML
 >- Append the submitted data to the list
 
-
-## Screenshot of finished app
-<p align="center">
-<img src="https://raw.githubusercontent.com/Ollie-Boyd/JavaScript-sentiment-analysis-with-AFINN-lexicon/master/screenshots/Events.png" width=50% height=auto%>
-</p>
-
-
 ## Approach
 The brief wasn't too challenging or exciting so I thought I would use it as an excuse to practice getting to grips with functional programming in JavaScript and try my hand at some basic sentiment analysis. 
 
